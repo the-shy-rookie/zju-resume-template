@@ -43,6 +43,7 @@
     *   打开终端 (Terminal) -> 新建终端。
     *   输入 `make clean` 清除已有的CV文件。
     *   输入 `make` 编译生成 PDF。
+    ![Codespaces Terminal](ci_steps/codespaces_terminal.png)
     *   在左侧文件列表中右键点击生成的 `CV.pdf`，选择 "Download" 下载到本地。
 
 ## 📝 环境与依赖 (Environment & Dependencies)
