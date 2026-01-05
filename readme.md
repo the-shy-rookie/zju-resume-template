@@ -1,5 +1,5 @@
 # ZJU LaTeX Resume Template
-[![Build Resume](https://github.com/hudou/zju-resume-template/actions/workflows/build.yml/badge.svg)](https://github.com/hudou/zju-resume-template/actions/workflows/build.yml)
+[![Build Resume](https://github.com/maksymilan/zju-resume-template/actions/workflows/build.yml/badge.svg)](https://github.com/maksymilan/zju-resume-template/actions/workflows/build.yml)
 
 这是一个浙江大学 LaTeX 简历模板。
 
@@ -80,9 +80,24 @@ make
 make clean
 ```
 
-## 参考
-- [billryan/resume](https://github.com/billryan/resume)
-- 本项目修改自一个非常优秀的开源简历模板，它为本项目奠定了良好的基础。由于疏忽，目前遗失了原始项目的链接。如果您知道这个项目的来源，特别是如果您就是原作者，欢迎随时通过 GitHub Issues 与我联系。我会立刻在此补上您的姓名与项目链接。非常感谢原作者的无私分享！
+## ☁️ 在线自动构建 (GitHub Actions)
+
+本项目配置了 GitHub Actions 自动化构建流程。**您无需在本地安装庞大的 LaTeX 环境**，只需在 GitHub 上修改代码，即可自动生成 PDF 简历。
+
+### 使用步骤：
+
+1. **Fork 本项目**：点击右上角的 `Fork` 按钮，将项目复制到您的 GitHub 账号下。
+2. **修改代码**：在您的仓库中，直接编辑 `CV.tex` 文件（或上传您的修改）。
+3. **自动触发**：一旦您提交 (Commit) 并推送 (Push) 代码，GitHub Actions 会自动开始构建。
+4. **下载简历**：
+    *   点击仓库上方的 **Actions** 标签页。
+    *   在左侧列表中点击 **Build Resume** 工作流。
+    *   点击最新的那次运行记录（通常显示为绿色对勾 ✅）。
+    *   在页面底部的 **Artifacts** 区域，点击 **CV-PDF** 即可下载生成的 PDF 文件。
+
+## 参考与致谢 (Acknowledgements)
+
+*   [billryan/resume](https://github.com/billryan/resume): 相关参考，
 
 # License
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)。
